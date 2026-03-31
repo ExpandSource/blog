@@ -1,5 +1,5 @@
-baseURL: "https://giveroot.github.io/blog/"
-title: giveroot's blog
+baseURL: "https://expandsource.github.io/blog/"
+title: ExpandSource's blog
 pagination:
   pagerSize: 10
 theme: PaperMod
@@ -24,7 +24,7 @@ params:
   env: production
   description: "개인 기술 블로그"
   keywords: [Blog, IT, AI, Tech]
-  author: giveroot
+  author: ExpandSource
   DateFormat: "2006년 1월 2일"
 
   defaultTheme: auto
@@ -46,7 +46,7 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/giveroot"
+      url: "https://github.com/ExpandSource"
 
   cover:
     hidden: false
@@ -54,7 +54,7 @@ params:
     hiddenInSingle: false
 
   editPost:
-    URL: "https://github.com/giveroot/blog/tree/main/content"
+    URL: "https://github.com/ExpandSource/blog/tree/main/content"
     Text: "수정 제안"
     appendFilePath: true
 
@@ -92,4 +92,4 @@ markup:
   highlight:
     noClasses: false
 
-copyright: "© 2026 giveroot. All rights reserved."
+copyright: "© 2026 ExpandSource. All rights reserved."
