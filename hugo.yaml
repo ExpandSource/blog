@@ -1,0 +1,95 @@
+baseURL: "https://giveroot.github.io/blog/"
+title: giveroot's blog
+pagination:
+  pagerSize: 10
+theme: PaperMod
+languageCode: ko
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "개인 기술 블로그"
+  keywords: [Blog, IT, AI, Tech]
+  author: giveroot
+  DateFormat: "2006년 1월 2일"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  comments: false
+
+  homeInfoParams:
+    Title: "Welcome"
+    Content: "IT, AI, 도구 활용 등을 기록하는 개인 블로그입니다."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/giveroot"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  editPost:
+    URL: "https://github.com/giveroot/blog/tree/main/content"
+    Text: "수정 제안"
+    appendFilePath: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: search
+      name: 검색
+      url: /search/
+      weight: 10
+    - identifier: categories
+      name: 카테고리
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 태그
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: 아카이브
+      url: /archives/
+      weight: 40
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+
+copyright: "© 2026 giveroot. All rights reserved."

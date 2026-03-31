@@ -1,0 +1,22 @@
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# AI assistant files
+ai/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+
+# Environment
+.env
+.env.local
