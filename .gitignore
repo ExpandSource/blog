@@ -5,6 +5,7 @@ resources/_gen/
 
 # AI assistant files
 ai/
+log.ai.txt
 
 # OS
 .DS_Store
