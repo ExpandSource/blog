@@ -6,6 +6,9 @@ resources/_gen/
 # AI assistant files
 ai/
 log.ai.txt
+CLAUDE.md
+.claude/
+.github/
 
 # OS
 .DS_Store
